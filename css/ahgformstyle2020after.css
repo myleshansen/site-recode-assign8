@@ -1,25 +1,78 @@
 /* CSS */
- 
+
+.first-presenter-info {
+  list-style: none;
+}
+
+.proposal-list {
+  list-style: none;
+}
+
+.reqfield {
+  background: #ff9;
+}
+
+.speakerinfo label {
+	margin-right: .3em;
+	width: 12em;
+	display: inline-block;
+  text-align: right;
+}
+
+.speakerinfo li {
+  padding: 5px 0;
+}
+
+.proposal-list label {
+  margin-right: .3em;
+  width: 7em;
+  display: inline-block;
+  text-align: right;
+}
+
+ul {
+  padding: 0;
+}
+
+.submit-btn {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.suggest_form {
+  padding-top: 10px;
+}
 
 
-
-
+textarea:focus,
+select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus + label,
+input:active + label,
+label[for]:focus,
+label[for]:active {
+  color: #bf1722 !important;
+  background-color: #fff2a8 !important;
+  outline: solid #03c medium;
+}
 
 #formstart {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:200%;
-	font-weight:bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 200%;
+  font-weight: bold;
 }
 
 .outline3 {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:150%;
-	font-weight:bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 150%;
+  font-weight: bold;
 }
 
 .outline4 {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:120%;
-	font-weight:bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 120%;
+  font-weight: bold;
 }
-.
+
